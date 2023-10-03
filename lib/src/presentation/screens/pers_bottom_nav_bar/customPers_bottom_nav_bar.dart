@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 
-class CustomPersistentBottomNavBar extends HookWidget {
+class CustomPersistentBottomNavBar extends StatelessWidget {
   final int selectedIndex;
   final List<PersistentBottomNavBarItem> items;
   final ValueChanged<int> onItemSelected;
