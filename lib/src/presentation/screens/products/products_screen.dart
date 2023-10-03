@@ -5,9 +5,11 @@ class ProductsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.white,
-      child: const Text('ProductsScreen'),
+    return SafeArea(
+      child: Container(
+        color: Colors.white,
+        child: const Text('ProductsScreen'),
+      ),
     );
   }
 }

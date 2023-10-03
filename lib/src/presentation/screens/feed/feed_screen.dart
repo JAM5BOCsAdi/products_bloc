@@ -5,9 +5,11 @@ class FeedScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.white,
-      child: const Text('FeedScreen'),
+    return SafeArea(
+      child: Container(
+        color: Colors.white,
+        child: const Text('FeedScreen'),
+      ),
     );
   }
 }
